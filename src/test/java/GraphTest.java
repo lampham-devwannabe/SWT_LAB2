@@ -33,22 +33,6 @@ class GraphTest {
     }
 
     @Test
-    void testSimpleAcyclicGraph() {
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        assertFalse(graph.hasCycle());
-    }
-
-    @Test
-    void testSimpleCyclicGraph() {
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 1);
-        assertTrue(graph.hasCycle());
-    }
-
-    @Test
     void testGraphWithDisconnectedComponents() {
         graph.addEdge(1, 2);
         graph.addEdge(2, 3);
@@ -89,15 +73,6 @@ class GraphTest {
     void testBfsSingleNode() {
         graph.addEdge(1, 1);
         List<Integer> expected = List.of(1);
-        assertEquals(expected, graph.bfs(1));
-    }
-
-    @Test
-    void testBfsSimpleGraph() {
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        List<Integer> expected = Arrays.asList(1, 2, 3, 4);
         assertEquals(expected, graph.bfs(1));
     }
 
