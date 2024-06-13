@@ -3,10 +3,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -28,22 +24,14 @@ class AlgorithmTest {
 
     @Test
     void test_kiemTraSoLe_1() {
+        assertFalse(alg.kiemTraSoLe(2));
         assertTrue(alg.kiemTraSoLe(1));
     }
 
     @Test
-    void test_kiemTraSoLe_2() {
-        assertFalse(alg.kiemTraSoLe(2));
-    }
-
-    @Test
     void test_kiemTraSoChan_1() {
-        assertFalse(alg.kiemTraSoChan(3));
-    }
-
-    @Test
-    void test_kiemTraSoChan_2() {
         assertTrue(alg.kiemTraSoChan(4));
+        assertFalse(alg.kiemTraSoChan(3));
     }
 
     @Test
@@ -82,67 +70,31 @@ class AlgorithmTest {
     }
 
     @Test
-    void test_chiaHaiSoNguyen_1() {
-        assertEquals(5, alg.chiaHaiSoNguyen(10, 2));
-    }
-
-    @Test
-    void test_chiaHaiSoNguyen_2() {
+    void test_chiaHaiSoNguyen() {
         assertEquals(0, alg.chiaHaiSoNguyen(0, 5));
-    }
-
-    @Test
-    void test_chiaHaiSoNguyen_3() {
         assertEquals(1, alg.chiaHaiSoNguyen(8, 8));
-    }
-
-    @Test
-    void test_chiaHaiSoNguyen_4() {
         assertEquals(-5, alg.chiaHaiSoNguyen(10, -2));
-    }
-
-    @Test
-    void test_chiaHaiSoNguyen_5() {
         assertEquals(3, alg.chiaHaiSoNguyen(7, 2));
-    }
-
-    @Test
-    void test_chiaHaiSoNguyen_6() {
+        assertEquals(5, alg.chiaHaiSoNguyen(10, 2));
         assertThrows(ArithmeticException.class,
                 () -> alg.chiaHaiSoNguyen(5, 0));
     }
 
     @Test
-    void test_nhanHaiSoNguyen_1() {
+    void test_nhanHaiSoNguyen() {
         assertEquals(6, alg.nhanHaiSoNguyen(2, 3));
+        assertEquals(7, alg.nhanHaiSoNguyen(7, 1));
+        assertEquals(-7, alg.nhanHaiSoNguyen(-7, 1));
+        assertEquals(0, alg.nhanHaiSoNguyen(0, 5));
+        assertEquals(0, alg.nhanHaiSoNguyen(0, -5));
         assertEquals(-35, alg.nhanHaiSoNguyen(-7, 5));
     }
 
     @Test
-    void test_nhanHaiSoNguyen_2() {
-        assertEquals(7, alg.nhanHaiSoNguyen(7, 1));
-        assertEquals(-7, alg.nhanHaiSoNguyen(-7, 1));
-    }
-
-    @Test
-    void test_nhanHaiSoNguyen_3() {
-        assertEquals(0, alg.nhanHaiSoNguyen(0, 5));
-        assertEquals(0, alg.nhanHaiSoNguyen(0, -5));
-    }
-
-    @Test
     void test_chiaLayDuHaiSoNguyen_1() {
-        assertEquals(1, alg.chiaLayDuHaiSoNguyen(10, 3));
-    }
-
-    @Test
-    void test_chiaLayDuHaiSoNguyen_2() {
         assertEquals(0, alg.chiaLayDuHaiSoNguyen(0, 5));
-    }
-
-    @Test
-    void test_chiaLayDuHaiSoNguyen_3() {
         assertEquals(3, alg.chiaLayDuHaiSoNguyen(3, 10));
+        assertEquals(1, alg.chiaLayDuHaiSoNguyen(10, 3));
     }
 
     @Test
