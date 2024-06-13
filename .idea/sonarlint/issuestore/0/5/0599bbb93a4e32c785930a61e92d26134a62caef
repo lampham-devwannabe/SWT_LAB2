@@ -1,0 +1,31 @@
+
+„
+java:S2259?"CA "NullPointerException" could be thrown; "check" is nullable here.(«ŞÖ³üÿÿÿÿJ$14bfefd6-317c-433a-9ce8-5973006a9b23
+Š
+java:S1192B"IDefine a constant instead of duplicating this literal "Memory: " 5 times.(¼Ó£şÿÿÿÿJ$fe1e6cdc-0f4f-4d88-824d-d0471b8c8203
+‰
+java:S1192u"MDefine a constant instead of duplicating this literal "BMI Status: " 5 times.(Ö©ûJ$54d5d85c-3551-4882-ac07-0db663193958
+k	java:S106"+Replace this use of System.out by a logger.(ñ´…÷ûÿÿÿÿJ$da2cf160-7c20-44e3-916e-ac1c13de5030
+k	java:S106"+Replace this use of System.out by a logger.(ºÄí±ûÿÿÿÿJ$2e2df281-7573-472f-8dde-2053c7f64344
+k	java:S106"+Replace this use of System.out by a logger.(¹‹í’øÿÿÿÿJ$40e89fec-3195-4618-869d-4b25f45f69ea
+f	java:S106"+Replace this use of System.out by a logger.(ù÷Ç÷J$9fd0b4ae-88c7-49ab-9bbc-0f5da4d7543e
+k
+java:S11728"*Remove this unused method parameter "msg".(†û®éıÿÿÿÿJ$6db2cf4e-cb4f-4f5d-a544-10f481b1fa3d
+k	java:S106B"+Replace this use of System.out by a logger.(¼Ó£şÿÿÿÿJ$1b3603a9-82a4-4958-8c2c-c6990f313483
+k	java:S106F"+Replace this use of System.out by a logger.(¼Ó£şÿÿÿÿJ$de74f4a9-26da-4499-86de-13b5b4092998
+k	java:S106J"+Replace this use of System.out by a logger.(¼Ó£şÿÿÿÿJ$759051be-4c98-4176-98f7-ba78d701c15a
+k	java:S106R"+Replace this use of System.out by a logger.(¼Ó£şÿÿÿÿJ$75253d2a-755c-4852-b408-57ec23d9578c
+k	java:S106V"+Replace this use of System.out by a logger.(¼Ó£şÿÿÿÿJ$ddfcb507-cfc1-4533-a5bf-3e7ce7b1a9da
+f	java:S106Y"+Replace this use of System.out by a logger.(şø¢‡J$f8463d9c-0b61-4e3a-a66f-cd1eb60a51bd
+k	java:S106_"+Replace this use of System.out by a logger.(õéñıüÿÿÿÿJ$479d6051-9448-4fbf-8bd3-5672c65233fc
+f	java:S106a"+Replace this use of System.err by a logger.(¬ÿJ$b8ecf52d-6215-44be-a16f-64fdc0e22a8a
+f	java:S106c"+Replace this use of System.err by a logger.(ûÕ¶çJ$c96eb073-b453-4209-be27-c5fbd59e055e
+k
+java:S1172h"*Remove this unused method parameter "msg".(ç†ÙàøÿÿÿÿJ$99f1c485-17eb-48a5-9c76-76455c002552
+k	java:S106s"+Replace this use of System.out by a logger.(¹Å“şÿÿÿÿJ$a20ad694-5835-487a-810f-1c9c3580544b
+f	java:S106u"+Replace this use of System.out by a logger.(Ö©ûJ$ea92ccc6-14f7-4abf-9c57-2c69b09734dc
+k	java:S106w"+Replace this use of System.out by a logger.(›®¼­şÿÿÿÿJ$95b43fe7-92fe-42a3-b43c-46a0725f1ced
+k	java:S106y"+Replace this use of System.out by a logger.(—Çß–ÿÿÿÿÿJ$40e550dc-9514-4869-ac93-2a41a6281195
+f	java:S106{"+Replace this use of System.out by a logger.(áé„éJ$82edaf3d-a5b8-4927-828a-3645bcc69b1a
+f	java:S106}"+Replace this use of System.out by a logger.(ˆ„™ÌJ$98ab6714-a2b5-4f4e-9a1e-e2518af8788d
+l	java:S106€"+Replace this use of System.err by a logger.(“Ï÷úÿÿÿÿJ$4ec879ae-01bc-4165-9e71-16b0f6d889f1

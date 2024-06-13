@@ -1,0 +1,11 @@
+
+™
+java:S1488*"]Immediately return this expression instead of assigning it to the temporary variable "input".(ï—J$15634a6c-39db-43d8-aede-22edb8898f38
+Ÿ
+java:S14883"^Immediately return this expression instead of assigning it to the temporary variable "number".(Ù¢´œúÿÿÿÿJ$705a846c-1a74-4a28-abf0-43b8333fe6f4
+f	java:S106"+Replace this use of System.out by a logger.(¤«ºÑJ$f725cecc-2ffc-4f6a-affe-a54b23c8c9e5
+f	java:S106"+Replace this use of System.err by a logger.(ĞÄìÇJ$475c0302-12e8-493e-9120-ddd1fa85278a
+f	java:S106"+Replace this use of System.out by a logger.(¤«ºÑJ$0561dc47-0f19-47b4-95af-9b98404f5529
+k	java:S106"+Replace this use of System.err by a logger.(ĞİÆøÿÿÿÿJ$c7381762-472f-45c0-93ed-667a25b6d4a9
+f	java:S106)"+Replace this use of System.out by a logger.(¤«ºÑJ$acd18005-5d70-4bb7-a0e7-4e7cbeb26555
+f	java:S106-"+Replace this use of System.err by a logger.(ŒšóJ$0a1b86b9-7128-4156-9556-3c5a0478b13c
