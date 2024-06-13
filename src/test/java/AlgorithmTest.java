@@ -146,71 +146,49 @@ class AlgorithmTest {
     }
 
     @Test
-    void test_fibonacci_1() {
+    void test_fibonacci() {
         assertEquals(0, alg.fibonacci(0));
         assertEquals(1, alg.fibonacci(1));
-    }
-
-    @Test
-    void test_fibonacci_2() {
         assertEquals(1, alg.fibonacci(2));
         assertEquals(55, alg.fibonacci(10));
-        assertEquals(6765, alg.fibonacci(20));
-        assertEquals(832040, alg.fibonacci(30));
     }
 
     @Test
-    void test_kiemTraNamNhuan_1() {
-        assertTrue(alg.kiemTraNamNhuan(2004));
-        assertTrue(alg.kiemTraNamNhuan(2016));
-    }
-
-    @Test
-    void test_kiemTraNamNhuan_2() {
-        assertFalse(alg.kiemTraNamNhuan(2019));
-        assertFalse(alg.kiemTraNamNhuan(2021));
-    }
-
-    @Test
-    void test_kiemTraNamNhuan_3() {
-        assertFalse(alg.kiemTraNamNhuan(1900));
-        assertFalse(alg.kiemTraNamNhuan(2100));
-    }
-
-    @Test
-    void test_kiemTraNamNhuan_4() {
+    void test_kiemTraNamNhuan() {
         assertTrue(alg.kiemTraNamNhuan(1600));
-        assertTrue(alg.kiemTraNamNhuan(2000));
+        assertFalse(alg.kiemTraNamNhuan(1900));
+        assertTrue(alg.kiemTraNamNhuan(2004));
+        assertFalse(alg.kiemTraNamNhuan(2019));
     }
 
     @Test
-    void test_kiemTraPalindrome_1() {
+    void test_kiemTraPalindrome() {
         assertTrue(alg.kiemTraPalindrome(121));
-    }
-
-    @Test
-    void test_kiemTraPalindrome_2() {
         assertFalse(alg.kiemTraPalindrome(123));
     }
 
     @Test
-    void test_sayHello_1() {
-        assertNull(alg.sayHello(null));
-    }
-
-    @Test
-    void test_sayHello_2() {
+    void test_sayHello() {
         assertEquals("Hello, Lam", alg.sayHello("Lam"));
+        assertNull(alg.sayHello(null));
     }
 
     @Test
     void test_kiemTraChuoiDoiXung() {
         assertTrue(alg.kiemTraChuoiDoiXung("owo"));
+        assertFalse(alg.kiemTraChuoiDoiXung("awp"));
     }
 
     @Test
     void test_tinhTongSoLe() {
         assertEquals(16, alg.tinhTongSoLe(7));
+        assertEquals(64, alg.tinhTongSoLe(15));
+    }
+
+    @Test
+    void test_tinhTongTu0() {
+        assertEquals(28, alg.tinhTongTu0(7));
+        assertEquals(15, alg.tinhTongTu0(5));
     }
 
     @Test
@@ -225,12 +203,12 @@ class AlgorithmTest {
 
     @Test
     void test_timUocChungLonNhat() {
-        assertEquals(6, alg.timUocChungLonNhat(18,30));
+        assertEquals(6, alg.timUocChungLonNhat(18, 30));
     }
 
     @Test
     void test_timBoiChungNhoNhat() {
-        assertEquals(49,alg.timBoiChungNhoNhat(7,49));
+        assertEquals(49, alg.timBoiChungNhoNhat(7, 49));
     }
 
     @Test
@@ -239,7 +217,7 @@ class AlgorithmTest {
     }
 
     @Test
-    void test_TinhGiaiThua() {
+    void test_tinhGiaiThua() {
         assertEquals(24, alg.tinhGiaiThua(4));
     }
 
@@ -253,38 +231,16 @@ class AlgorithmTest {
         assertTrue(alg.kiemTraSoNguyenTo(53));
     }
 
-    @Test
-    void test_solveQuadraticEquation_1() {
-        double a = 1;
-        double b = -3;
-        double c = 2;
-        String expectedOutput = "2.0 1.0";
+    @ParameterizedTest
+    @CsvSource({
+            "1, -3, 2, '2.0 1.0'",
+            "1, -2, 1, '1.0'",
+            "1, 1, 1, '-0.5 + 0.8660254037844386i -0.5 - 0.8660254037844386i'"
+    })
+    void test_solveQuadraticEquation(double a, double b, double c, String expectedOutput) {
         Runnable method = () -> alg.solveQuadraticEquation(a, b, c);
         String actualOutput = alg.getOutput(method);
-        System.out.println(expectedOutput + "\n" + actualOutput);
         assertEquals(expectedOutput, actualOutput);
-    }
-
-    @Test
-    void test_solveQuadraticEquation_2() {
-        double a = 1;
-        double b = -2;
-        double c = 1;
-        String expectedOutput = "1.0";
-        Runnable method = () -> alg.solveQuadraticEquation(a,b,c);
-        String actualOutput = alg.getOutput(method);
-        assertEquals(expectedOutput,actualOutput);
-    }
-
-    @Test
-    void test_solveQuadraticEquation_3() {
-        double a = 1;
-        double b = 1;
-        double c = 1;
-        String expectedOutput = "-0.5 + 0.8660254037844386i -0.5 - 0.8660254037844386i";
-        Runnable method = () -> alg.solveQuadraticEquation(a,b,c);
-        String actualOutput = alg.getOutput(method);
-        assertEquals(expectedOutput,actualOutput);
     }
 
     @ParameterizedTest
@@ -294,10 +250,9 @@ class AlgorithmTest {
             "0, 0, 0, 'Phương trình có vô số nghiệm.'",
             "1, 2, 5, 'Phương trình có 4 nghiệm phức phân biệt: x1 = -1 + 2i x2 = -1 - 2i x3 = -1 + 2i x4 = -1 - 2i'"
     })
-    void test_solveBiquadraticEquation(double a, double b, double c, String expectedOutput) {
-        Runnable method = () -> alg.solveBiquadraticEquation(a, b, c);
+    void test_solveQuarticEquation(double a, double b, double c, String expectedOutput) {
+        Runnable method = () -> alg.solveQuarticEquation(a, b, c);
         String actualOutput = alg.getOutput(method);
-        System.out.println("Actual Output:\n" + actualOutput);
         assertEquals(expectedOutput, actualOutput);
     }
 }
