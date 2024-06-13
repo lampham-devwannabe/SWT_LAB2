@@ -91,7 +91,7 @@ class AlgorithmTest {
     }
 
     @Test
-    void test_chiaLayDuHaiSoNguyen_1() {
+    void test_chiaLayDuHaiSoNguyen() {
         assertEquals(0, alg.chiaLayDuHaiSoNguyen(0, 5));
         assertEquals(3, alg.chiaLayDuHaiSoNguyen(3, 10));
         assertEquals(1, alg.chiaLayDuHaiSoNguyen(10, 3));
@@ -200,10 +200,13 @@ class AlgorithmTest {
             "1, -3, 2, 'Phương trình có các nghiệm: x1 = 1.41 x2 = -1.41 x3 = 1 x4 = -1'",
             "0, 1, -1, 'Phương trình có hai nghiệm phân biệt: x1 = 1, x2 = -1'",
             "0, 0, 0, 'Phương trình có vô số nghiệm.'",
-            "1, 2, 5, 'Phương trình có 4 nghiệm phức phân biệt: x1 = -1 + 2i x2 = -1 - 2i x3 = -1 + 2i x4 = -1 - 2i'"
+            "1, 2, 5, 'Phương trình có 4 nghiệm phức phân biệt: x1 = -1 + 2i x2 = -1 - 2i x3 = -1 + 2i x4 = -1 - 2i'",
+            "1, 0, -1, 'Phương trình có các nghiệm: x1 = 1 x2 = -1 x3 = 1i x4 = -1i'",
+            "1, 0, 0, 'Phương trình có nghiệm kép: x = 0'",
+            "1, 4, 4, 'Phương trình có 2 nghiệm phức phân biệt: x1 = 1.41i, x2 = -1.41i'"
     })
     void test_solveQuarticEquation(double a, double b, double c, String expectedOutput) {
-        Runnable method = () -> alg.solveQuarticEquation(a, b, c);
+        Runnable method = () -> alg.solveBiQuadraticEquation(a, b, c);
         String actualOutput = alg.getOutput(method);
         assertEquals(expectedOutput, actualOutput);
     }

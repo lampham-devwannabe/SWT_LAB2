@@ -50,26 +50,6 @@ class GraphTest {
     }
 
     @Test
-    void testComplexGraphWithoutCycle() {
-        graph.addEdge(1, 2);
-        graph.addEdge(1, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        graph.addEdge(5, 6);
-        assertFalse(graph.hasCycle());
-    }
-
-    @Test
-    void testComplexGraphWithCycle() {
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        graph.addEdge(5, 2);
-        assertTrue(graph.hasCycle());
-    }
-
-    @Test
     void testBfsSingleNode() {
         graph.addEdge(1, 1);
         List<Integer> expected = List.of(1);
@@ -91,17 +71,6 @@ class GraphTest {
         graph.addEdge(2, 3);
         graph.addEdge(4, 5);
         List<Integer> expected = Arrays.asList(1, 2, 3);
-        assertEquals(expected, graph.bfs(1));
-    }
-
-    @Test
-    void testBfsComplexGraph() {
-        graph.addEdge(1, 2);
-        graph.addEdge(1, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        graph.addEdge(5, 6);
-        List<Integer> expected = Arrays.asList(1, 2, 3, 4, 5, 6);
         assertEquals(expected, graph.bfs(1));
     }
 

@@ -1,30 +1,30 @@
 
 
-java:S1192ı"FDefine a constant instead of duplicating this literal "x4 = " 3 times.(ø·Ÿäøÿÿÿÿ8…»èê€2J$61bda95f-f58b-4d38-9da9-505da1ce71c8
+java:S1192ı"FDefine a constant instead of duplicating this literal "x4 = " 3 times.(ø·Ÿäøÿÿÿÿ8…»èê€2J$41e4b2b0-2faa-488d-8bbe-674f2251e9e5
 
-java:S1192ü"FDefine a constant instead of duplicating this literal "x3 = " 3 times.(Ü¯ëñşÿÿÿÿ8…»èê€2J$5c700ff5-2c8d-4ac1-9cec-a329a3664f2b
+java:S1192ü"FDefine a constant instead of duplicating this literal "x3 = " 3 times.(Ü¯ëñşÿÿÿÿ8…»èê€2J$38f142df-1432-4d49-b83c-4d72f6eb4ed2
 
-java:S1192û"FDefine a constant instead of duplicating this literal "x2 = " 3 times.(Íÿ¾”øÿÿÿÿ8…»èê€2J$be388f77-2942-4955-b611-fe6be0407b8d
+java:S1192û"FDefine a constant instead of duplicating this literal "x2 = " 3 times.(Íÿ¾”øÿÿÿÿ8…»èê€2J$a13b1ed5-49ff-4c24-82bf-1fd37fa767d5
 Š
-java:S1192ú"FDefine a constant instead of duplicating this literal "x1 = " 3 times.(şŠ–¶8…»èê€2J$c3eebe44-e49f-4deb-b5ac-4675c7707f83
-s	java:S106Æ"+Replace this use of System.out by a logger.(£ÉÂºúÿÿÿÿ8’„Âê€2J$1fea0c0a-921f-4768-bc21-26c24aef706d
-s	java:S106É"+Replace this use of System.out by a logger.(À«é¹øÿÿÿÿ8’„Âê€2J$4ff4381b-a271-41a8-b350-09d313e30c9f
-n	java:S106Í"+Replace this use of System.out by a logger.(ã÷‹ñ8’„Âê€2J$0e09bf99-f1fe-4c1b-8dcc-efc7cea57a4c
-n	java:S106Î"+Replace this use of System.out by a logger.(ÒËÜŒ8”»èê€2J$d256a4a7-cbf1-403e-9b37-9d2ea0a454e7
-n	java:S106Ô"+Replace this use of System.out by a logger.(ÿ¢×Ó8”»èê€2J$6c8afb2d-c54a-46ca-9ffb-e26ebe021282
-›
-java:S3776â"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Ğüß‹úÿÿÿÿ8”»èê€2J$c040b903-36fb-40d2-b654-c1b70a7ef5bb
-n	java:S106æ"+Replace this use of System.out by a logger.(“íØû8”»èê€2J$46f41b12-0513-4d2b-befe-8090d175a869
-s	java:S106è"+Replace this use of System.out by a logger.(“Ãÿ•øÿÿÿÿ8•»èê€2J$d62cff06-fda5-4c55-a9ba-03376990c0b0
-s	java:S106í"+Replace this use of System.out by a logger.(İÒóøÿÿÿÿ8•»èê€2J$1c23e8f5-052b-4340-8c08-74896b6b76b8
-s	java:S106ñ"+Replace this use of System.out by a logger.(Èâ‰¦ıÿÿÿÿ8–»èê€2J$a26949c0-135f-4932-86f7-6f25c4ef0fc2
-n	java:S106÷"+Replace this use of System.out by a logger.(±’ 8–»èê€2J$ab31eb69-499b-47ee-a961-b1a8d12abd1b
-n	java:S106ú"+Replace this use of System.out by a logger.(şŠ–¶8–»èê€2J$8af3f9bc-ad71-4903-bd17-6fa706453d93
-s	java:S106û"+Replace this use of System.out by a logger.(Íÿ¾”øÿÿÿÿ8–»èê€2J$ac357787-b934-4d66-82fb-4565bc12679e
-s	java:S106ü"+Replace this use of System.out by a logger.(Ü¯ëñşÿÿÿÿ8—»èê€2J$08921abd-2921-4536-aa95-c88d717ccb8b
-s	java:S106ı"+Replace this use of System.out by a logger.(ø·Ÿäøÿÿÿÿ8—»èê€2J$641ffc04-edd3-4f2b-90c8-430c19229986
-s	java:S106"+Replace this use of System.out by a logger.(İÒóøÿÿÿÿ8—»èê€2J$1d5cda8f-701d-4d60-8a02-b1992035a9eb
-s	java:S106ƒ"+Replace this use of System.out by a logger.(³ÊÏ¥ùÿÿÿÿ8›»èê€2J$f24b57bd-141e-4f8f-ad53-ee9cb687d975
-s	java:S106‡"+Replace this use of System.out by a logger.(Óœô­øÿÿÿÿ8›»èê€2J$5dd93cae-9e3d-4681-aaae-0b854a13e3ad
-s	java:S106œ"+Replace this use of System.out by a logger.(­ô ¸øÿÿÿÿ8Ğş÷ú€2J$72cd3f74-8c15-4026-bd8d-d736667dfc03
-m	java:S106"+Replace this use of System.out by a logger.(ÖÒY8Àœœ‚2J$eecb6041-373a-4f6d-9367-776c3cdb877e
+java:S1192ú"FDefine a constant instead of duplicating this literal "x1 = " 3 times.(şŠ–¶8…»èê€2J$c8cb590f-e933-4673-b2ca-c6d3de03c276
+s	java:S106Æ"+Replace this use of System.out by a logger.(£ÉÂºúÿÿÿÿ8’„Âê€2J$f971b000-2118-4165-96df-aa2a8529d378
+s	java:S106É"+Replace this use of System.out by a logger.(À«é¹øÿÿÿÿ8’„Âê€2J$46b6b38e-ed85-4d09-a5ca-33b29b389c13
+n	java:S106Í"+Replace this use of System.out by a logger.(ã÷‹ñ8’„Âê€2J$7f8dc71c-af1d-436a-97ce-e86cc0e29a75
+n	java:S106Î"+Replace this use of System.out by a logger.(ÒËÜŒ8”»èê€2J$308b6b8e-cea6-4d31-96a7-499067ae804f
+n	java:S106Ô"+Replace this use of System.out by a logger.(ÿ¢×Ó8”»èê€2J$871cfee5-5c98-42de-9eb2-3ee716e09ef3
+–
+java:S3776â"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(¬§ã¢8”»èê€2J$4a8945d0-30ca-4ee9-ad82-baf9ea00292c
+n	java:S106æ"+Replace this use of System.out by a logger.(“íØû8”»èê€2J$289c00cb-1ce0-43be-8997-195ac3af0036
+s	java:S106è"+Replace this use of System.out by a logger.(“Ãÿ•øÿÿÿÿ8•»èê€2J$c3208ffe-ec1d-403e-97bc-5aed92b55bab
+s	java:S106í"+Replace this use of System.out by a logger.(İÒóøÿÿÿÿ8•»èê€2J$e7be12f2-eccc-4b2a-a236-890ac881cc60
+s	java:S106ñ"+Replace this use of System.out by a logger.(Èâ‰¦ıÿÿÿÿ8–»èê€2J$40a3c4c3-cd93-4374-b9d1-c8d5b6d9e813
+n	java:S106÷"+Replace this use of System.out by a logger.(±’ 8–»èê€2J$7eb370c4-76d1-4708-9eb4-4df812dad670
+n	java:S106ú"+Replace this use of System.out by a logger.(şŠ–¶8–»èê€2J$d8511b0a-7a3f-45d4-a0fc-cf6e43d3475d
+s	java:S106û"+Replace this use of System.out by a logger.(Íÿ¾”øÿÿÿÿ8–»èê€2J$eced8628-ec4a-448a-a63b-fc191aed5993
+s	java:S106ü"+Replace this use of System.out by a logger.(Ü¯ëñşÿÿÿÿ8—»èê€2J$9eb43b25-1149-4cb1-9096-bb2029f634ae
+s	java:S106ı"+Replace this use of System.out by a logger.(ø·Ÿäøÿÿÿÿ8—»èê€2J$8ad556a6-0574-4ea4-918b-f6679c2b1838
+s	java:S106"+Replace this use of System.out by a logger.(İÒóøÿÿÿÿ8—»èê€2J$81948085-d170-4292-a0db-9673b51b32a0
+s	java:S106ƒ"+Replace this use of System.out by a logger.(³ÊÏ¥ùÿÿÿÿ8›»èê€2J$24c23fd8-418a-4d4e-8cdf-a8b7c2b49690
+s	java:S106‡"+Replace this use of System.out by a logger.(Óœô­øÿÿÿÿ8›»èê€2J$62380c1c-7904-46ea-8714-cdaefaa6086e
+s	java:S106œ"+Replace this use of System.out by a logger.(­ô ¸øÿÿÿÿ8Ğş÷ú€2J$95d0551e-884d-4a2a-80e5-2d73f62b1972
+m	java:S106"+Replace this use of System.out by a logger.(ÖÒY8Àœœ‚2J$67d39014-c16f-4e24-86d7-72bd325fa81e

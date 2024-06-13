@@ -223,7 +223,7 @@ public class Algorithm {
 
     private static final DecimalFormat df = new DecimalFormat("#.##");
 
-    public void solveQuarticEquation(double a, double b, double c) {
+    public void solveBiQuadraticEquation(double a, double b, double c) {
         if (a == 0) {
             if (b == 0) {
                 if (c == 0) {
